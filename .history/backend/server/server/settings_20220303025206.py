@@ -17,7 +17,7 @@ import os
 
 env = environ.Env(
     # set casting, default value
-    DEBUG=(bool, True)
+    DEBUG=(bool, False)
 )
 
 # Set the project base directory
